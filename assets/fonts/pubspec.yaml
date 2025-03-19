@@ -73,17 +73,34 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
+  fonts:
+      - family: MonserratBlack
+        fonts:
+          - asset: assets/fonts/Monserrat-Black.ttf
+      - family: MonserratBold
+        fonts:
+          - asset: assets/fonts/Monserrat-Bold.ttf
+      - family: MonserratItalic
+        fonts:
+          - asset: assets/fonts/monserrat-Italic.ttf
+      - family: MonserratLight
+        fonts:
+          - asset: assets/fonts/monserrat-Light.ttf
+      - family: MonserratLightItalic
+        fonts:
+          - asset: assets/fonts/monserrat-LightItalic.ttf
+      - family: MonserratMedium
+        fonts:
+          - asset: assets/fonts/monserrat-Medium.ttf
+      - family: MonserratMediumItalic
+        fonts:
+          - asset: assets/fonts/Monserrat-MediumItalic.ttf
+      - family: MonserratRegular
+        fonts:
+          - asset: assets/fonts/Monserrat-Regular.ttf
+      - family: MonserratSemiBold
+        fonts:
+          - asset: assets/fonts/Monserrat-SemiBold.ttf
+      - family: MonserratSemiBoldItalic
+        fonts:
+          - asset: assets/fonts/Monserrat-SemiBoldItalic.ttf
