@@ -1,14 +1,14 @@
 abstract class RxFonts {
-  static const String monserratBold = 'monserratBlack';
-  static const String monserratBookItalic = 'monserratBold';
-  static const String monserratItalic = 'monserratItalic';
-  static const String monserratLight = 'monserratLight';
-  static const String monserratLightItalic = 'monserratLightItalic';
-  static const String monserratMedium = 'monserratMedium';
-  static const String monserratMediumItalic = 'monserratMediumItalic';
-  static const String monserratRegular = 'monserratRegular';
-  static const String monserratSemiBold = 'monserratSemiBold';
-  static const String monserratSemiBoldItalic = 'monserratSemiBoldItalic';
+  static const String montserratBold = 'MontserratBlack';
+  static const String montserratBookItalic = 'MontserratBold';
+  static const String montserratItalic = 'MontserratItalic';
+  static const String montserratLight = 'MontserratLight';
+  static const String montserratLightItalic = 'MontserratLightItalic';
+  static const String montserratMedium = 'MontserratMedium';
+  static const String montserratMediumItalic = 'MontserratMediumItalic';
+  static const String montserratRegular = 'MontserratRegular';
+  static const String montserratSemiBold = 'MontserratSemiBold';
+  static const String montserratSemiBoldItalic = 'MontserratSemiBoldItalic';
 }
 
 abstract class RxFontSizes {

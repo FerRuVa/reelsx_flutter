@@ -9,7 +9,7 @@ class RxTxtBase extends StatelessWidget {
     required this.txt,
     required this.size,
     this.color = RxColors.primaryCherry,
-    this.fontFamily = RxFonts.monserratRegular,
+    this.fontFamily = RxFonts.montserratRegular,
     this.maxLines,
     this.textOverflow = TextOverflow.ellipsis,
     this.shadows,

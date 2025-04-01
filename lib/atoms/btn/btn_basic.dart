@@ -45,7 +45,7 @@ class BtnBasic extends StatelessWidget {
             child: RxTxtH6(
               txt: txt,
               color: txtColor,
-              fontFamily: RxFonts.monserratSemiBold,
+              fontFamily: RxFonts.montserratSemiBold,
             ),
           ),
         ),

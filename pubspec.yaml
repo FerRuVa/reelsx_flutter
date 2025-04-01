@@ -34,16 +34,13 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_dotenv: ^5.2.1
+  crypto: ^3.0.6
+  dio: ^5.8.0+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
@@ -51,10 +48,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
@@ -74,33 +67,33 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-      - family: MonserratBlack
-        fonts:
-          - asset: assets/fonts/Monserrat-Black.ttf
-      - family: MonserratBold
-        fonts:
-          - asset: assets/fonts/Monserrat-Bold.ttf
-      - family: MonserratItalic
-        fonts:
-          - asset: assets/fonts/monserrat-Italic.ttf
-      - family: MonserratLight
-        fonts:
-          - asset: assets/fonts/monserrat-Light.ttf
-      - family: MonserratLightItalic
-        fonts:
-          - asset: assets/fonts/monserrat-LightItalic.ttf
-      - family: MonserratMedium
-        fonts:
-          - asset: assets/fonts/monserrat-Medium.ttf
-      - family: MonserratMediumItalic
-        fonts:
-          - asset: assets/fonts/Monserrat-MediumItalic.ttf
-      - family: MonserratRegular
-        fonts:
-          - asset: assets/fonts/Monserrat-Regular.ttf
-      - family: MonserratSemiBold
-        fonts:
-          - asset: assets/fonts/Monserrat-SemiBold.ttf
-      - family: MonserratSemiBoldItalic
-        fonts:
-          - asset: assets/fonts/Monserrat-SemiBoldItalic.ttf
+    - family: MontserratBlack
+      fonts:
+        - asset: assets/fonts/Montserrat-Black.ttf
+    - family: MontserratBold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+    - family: MontserratItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-Italic.ttf
+    - family: MontserratLight
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.ttf
+    - family: MontserratLightItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-LightItalic.ttf
+    - family: MontserratMedium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+    - family: MontserratMediumItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-MediumItalic.ttf
+    - family: MontserratRegular
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+    - family: MontserratSemiBold
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+    - family: MontserratSemiBoldItalic
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf

@@ -50,7 +50,7 @@ class BtnBasicSml extends StatelessWidget {
               txt: txt,
               maxLines: maxLines,
               color: txtColor,
-              fontFamily: RxFonts.monserratSemiBold,
+              fontFamily: RxFonts.montserratSemiBold,
               align: align,
             ),
           ),

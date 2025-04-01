@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:reelsx/data/data_conexion.dart';
 
 void main() {
   runApp(const MyApp());
+  MarvelApi().getComics();
 }
 
 class MyApp extends StatelessWidget {
